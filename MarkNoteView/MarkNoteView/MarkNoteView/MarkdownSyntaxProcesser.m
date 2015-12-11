@@ -79,7 +79,7 @@ SyntaxRule*  buildSyntaxRule(NSRegularExpression* exp ,NSDictionary* styles){
 }
 
 
-- (NSArray<SyntaxOccurance*> *)process:(NSString *) text; {
+- (NSMutableArray<SyntaxOccurance*> *)process:(NSString *) text; {
     NSMutableArray *markdownSyntaxModels = [NSMutableArray array];
     NSArray<SyntaxRule*>* rules = [self buildRulesForMarkDown];
     

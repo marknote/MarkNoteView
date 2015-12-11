@@ -11,5 +11,5 @@
 
 
 @interface MarkdownSyntaxProcesser : NSObject
-- (NSArray<SyntaxOccurance*> *)process:(NSString *) text;
+- (NSMutableArray<SyntaxOccurance*> *)process:(NSString *) text;
 @end

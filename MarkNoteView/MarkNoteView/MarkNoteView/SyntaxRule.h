@@ -21,5 +21,4 @@
 
 -(instancetype) initWithExpress:(NSRegularExpression*) exp Styles:(NSDictionary*) styles;
 
-
 @end

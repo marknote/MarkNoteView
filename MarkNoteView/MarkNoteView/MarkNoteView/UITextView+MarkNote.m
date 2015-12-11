@@ -25,12 +25,14 @@
 }
 
 - (void)updateSyntax {
-    NSArray *occurances = [[self markdownSyntaxGenerator] process:self.text];
+    NSMutableArray *occurances = [[self markdownSyntaxGenerator] process:self.text];
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self.text];
     [attributedString setAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16.0]} range:NSMakeRange(0, [attributedString length])];
     for (SyntaxOccurance *occurance in occurances) {
         [attributedString addAttributes:occurance.styles range:occurance.range];
     }
+    [occurances removeAllObjects];
+    occurances = nil;
     [self updateAttributedText:attributedString];
 }
 
