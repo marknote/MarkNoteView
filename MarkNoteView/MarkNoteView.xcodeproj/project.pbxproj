@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9A8E8A51C19A868001BAD13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E8A41C19A868001BAD13 /* main.m */; };
+		A9A8E8A81C19A868001BAD13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E8A71C19A868001BAD13 /* AppDelegate.m */; };
+		A9A8E8AB1C19A868001BAD13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E8AA1C19A868001BAD13 /* ViewController.m */; };
+		A9A8E8AE1C19A868001BAD13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A8E8AC1C19A868001BAD13 /* Main.storyboard */; };
+		A9A8E8B01C19A868001BAD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9A8E8AF1C19A868001BAD13 /* Assets.xcassets */; };
+		A9A8E8B31C19A868001BAD13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A8E8B11C19A868001BAD13 /* LaunchScreen.storyboard */; };
+		A9A8E8C11C19A9B4001BAD13 /* MarkdownSyntaxProcesser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E8BC1C19A9B4001BAD13 /* MarkdownSyntaxProcesser.m */; };
+		A9A8E8C21C19A9B4001BAD13 /* SyntaxOccurance.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E8BE1C19A9B4001BAD13 /* SyntaxOccurance.m */; };
+		A9A8E8C31C19A9B4001BAD13 /* UITextView+MarkNote.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E8C01C19A9B4001BAD13 /* UITextView+MarkNote.m */; };
+		A9A8E8C61C1A4DE6001BAD13 /* SyntaxRule.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A8E8C51C1A4DE6001BAD13 /* SyntaxRule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A9A8E8A01C19A868001BAD13 /* MarkNoteView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkNoteView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A8E8A41C19A868001BAD13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9A8E8A61C19A868001BAD13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9A8E8A71C19A868001BAD13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9A8E8A91C19A868001BAD13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9A8E8AA1C19A868001BAD13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9A8E8AD1C19A868001BAD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9A8E8AF1C19A868001BAD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9A8E8B21C19A868001BAD13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9A8E8B41C19A868001BAD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9A8E8BB1C19A9B4001BAD13 /* MarkdownSyntaxProcesser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkdownSyntaxProcesser.h; sourceTree = "<group>"; };
+		A9A8E8BC1C19A9B4001BAD13 /* MarkdownSyntaxProcesser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkdownSyntaxProcesser.m; sourceTree = "<group>"; };
+		A9A8E8BD1C19A9B4001BAD13 /* SyntaxOccurance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyntaxOccurance.h; sourceTree = "<group>"; };
+		A9A8E8BE1C19A9B4001BAD13 /* SyntaxOccurance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyntaxOccurance.m; sourceTree = "<group>"; };
+		A9A8E8BF1C19A9B4001BAD13 /* UITextView+MarkNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+MarkNote.h"; sourceTree = "<group>"; };
+		A9A8E8C01C19A9B4001BAD13 /* UITextView+MarkNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MarkNote.m"; sourceTree = "<group>"; };
+		A9A8E8C41C1A4DE6001BAD13 /* SyntaxRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyntaxRule.h; sourceTree = "<group>"; };
+		A9A8E8C51C1A4DE6001BAD13 /* SyntaxRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyntaxRule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9A8E89D1C19A868001BAD13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9A8E8971C19A868001BAD13 = {
+			isa = PBXGroup;
+			children = (
+				A9A8E8A21C19A868001BAD13 /* MarkNoteViewDemo */,
+				A9A8E8A11C19A868001BAD13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9A8E8A11C19A868001BAD13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9A8E8A01C19A868001BAD13 /* MarkNoteView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9A8E8A21C19A868001BAD13 /* MarkNoteViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9A8E8BA1C19A9B4001BAD13 /* MarkNoteView */,
+				A9A8E8A61C19A868001BAD13 /* AppDelegate.h */,
+				A9A8E8A71C19A868001BAD13 /* AppDelegate.m */,
+				A9A8E8A91C19A868001BAD13 /* ViewController.h */,
+				A9A8E8AA1C19A868001BAD13 /* ViewController.m */,
+				A9A8E8AC1C19A868001BAD13 /* Main.storyboard */,
+				A9A8E8AF1C19A868001BAD13 /* Assets.xcassets */,
+				A9A8E8B11C19A868001BAD13 /* LaunchScreen.storyboard */,
+				A9A8E8B41C19A868001BAD13 /* Info.plist */,
+				A9A8E8A31C19A868001BAD13 /* Supporting Files */,
+			);
+			name = MarkNoteViewDemo;
+			path = MarkNoteView;
+			sourceTree = "<group>";
+		};
+		A9A8E8A31C19A868001BAD13 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A8E8A41C19A868001BAD13 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9A8E8BA1C19A9B4001BAD13 /* MarkNoteView */ = {
+			isa = PBXGroup;
+			children = (
+				A9A8E8BB1C19A9B4001BAD13 /* MarkdownSyntaxProcesser.h */,
+				A9A8E8BC1C19A9B4001BAD13 /* MarkdownSyntaxProcesser.m */,
+				A9A8E8BD1C19A9B4001BAD13 /* SyntaxOccurance.h */,
+				A9A8E8BE1C19A9B4001BAD13 /* SyntaxOccurance.m */,
+				A9A8E8BF1C19A9B4001BAD13 /* UITextView+MarkNote.h */,
+				A9A8E8C01C19A9B4001BAD13 /* UITextView+MarkNote.m */,
+				A9A8E8C41C1A4DE6001BAD13 /* SyntaxRule.h */,
+				A9A8E8C51C1A4DE6001BAD13 /* SyntaxRule.m */,
+			);
+			path = MarkNoteView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9A8E89F1C19A868001BAD13 /* MarkNoteView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9A8E8B71C19A868001BAD13 /* Build configuration list for PBXNativeTarget "MarkNoteView" */;
+			buildPhases = (
+				A9A8E89C1C19A868001BAD13 /* Sources */,
+				A9A8E89D1C19A868001BAD13 /* Frameworks */,
+				A9A8E89E1C19A868001BAD13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkNoteView;
+			productName = MarkNoteView;
+			productReference = A9A8E8A01C19A868001BAD13 /* MarkNoteView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9A8E8981C19A868001BAD13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = markNote;
+				TargetAttributes = {
+					A9A8E89F1C19A868001BAD13 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = A9A8E89B1C19A868001BAD13 /* Build configuration list for PBXProject "MarkNoteView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9A8E8971C19A868001BAD13;
+			productRefGroup = A9A8E8A11C19A868001BAD13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9A8E89F1C19A868001BAD13 /* MarkNoteView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9A8E89E1C19A868001BAD13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A8E8B31C19A868001BAD13 /* LaunchScreen.storyboard in Resources */,
+				A9A8E8B01C19A868001BAD13 /* Assets.xcassets in Resources */,
+				A9A8E8AE1C19A868001BAD13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9A8E89C1C19A868001BAD13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9A8E8AB1C19A868001BAD13 /* ViewController.m in Sources */,
+				A9A8E8C21C19A9B4001BAD13 /* SyntaxOccurance.m in Sources */,
+				A9A8E8C11C19A9B4001BAD13 /* MarkdownSyntaxProcesser.m in Sources */,
+				A9A8E8A81C19A868001BAD13 /* AppDelegate.m in Sources */,
+				A9A8E8C31C19A9B4001BAD13 /* UITextView+MarkNote.m in Sources */,
+				A9A8E8A51C19A868001BAD13 /* main.m in Sources */,
+				A9A8E8C61C1A4DE6001BAD13 /* SyntaxRule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9A8E8AC1C19A868001BAD13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A8E8AD1C19A868001BAD13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9A8E8B11C19A868001BAD13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9A8E8B21C19A868001BAD13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9A8E8B51C19A868001BAD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9A8E8B61C19A868001BAD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9A8E8B81C19A868001BAD13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarkNoteView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = markNote.MarkNoteView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9A8E8B91C19A868001BAD13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarkNoteView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = markNote.MarkNoteView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9A8E89B1C19A868001BAD13 /* Build configuration list for PBXProject "MarkNoteView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A8E8B51C19A868001BAD13 /* Debug */,
+				A9A8E8B61C19A868001BAD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9A8E8B71C19A868001BAD13 /* Build configuration list for PBXNativeTarget "MarkNoteView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9A8E8B81C19A868001BAD13 /* Debug */,
+				A9A8E8B91C19A868001BAD13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9A8E8981C19A868001BAD13 /* Project object */;
+}
